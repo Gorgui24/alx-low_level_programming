@@ -6,7 +6,7 @@
  *
  *     main - Entry point
  *
- *
+ *     puts function print on screen
  *
  *     Return: Always 0 (Success)
  *
