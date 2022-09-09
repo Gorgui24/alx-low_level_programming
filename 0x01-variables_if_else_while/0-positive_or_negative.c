@@ -5,9 +5,16 @@
 
 /* more headers goes there */
 
-/* main -print by using if condition */
-
 /* betty style doc for function main goes there */
+
+/**
+ * main - print a number depending to if condition
+ *
+ *
+ *
+ * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
