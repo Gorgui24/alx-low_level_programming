@@ -3,7 +3,7 @@
 
 
 /**
- *     main function- C coding run with this function
+ *     main - print string in console
  *
  *     puts function print on screen
  *
