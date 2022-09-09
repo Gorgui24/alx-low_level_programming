@@ -3,7 +3,6 @@
 
 
 /**
- *
  *     main function- C coding run with this function
  *
  *     puts function print on screen
