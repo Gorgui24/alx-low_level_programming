@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*int main(void) :  Main function*/
+/*int main(void) :  Main function
+ *puts function print below words Programming is like building a multilingual puzzle
+ This programm return zero
+ *
+ * */
 int main(void)
 		{
-	/*puts() print this Programming is like building a multilingual puzzle*/
-	puts("\"Programming is like building a multilingual puzzle");
-/*this programm return 0*/	
+	
+	puts("\"Programming is like building a multilingual puzzle.");	
 	return (0);	
 		}
