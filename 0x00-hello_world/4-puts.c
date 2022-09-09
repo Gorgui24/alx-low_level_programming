@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * int main(void) :  Main function
  *puts function print below words Programming is like building a multilingual..
@@ -7,6 +8,8 @@
  */
 int main(void)
 {	
+	
 	puts("\"Programming is like building a multilingual puzzle");	
-	return (0);	
+	return (0);
+
 }
