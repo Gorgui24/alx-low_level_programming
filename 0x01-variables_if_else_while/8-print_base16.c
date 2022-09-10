@@ -14,7 +14,7 @@ int main(void)
 
 	for (num = 0; num < 10; ++num) 
 	{
-		char chn = num + '0'
+		char chn = num + '0';
 		putchar(chn);
 	}
 
