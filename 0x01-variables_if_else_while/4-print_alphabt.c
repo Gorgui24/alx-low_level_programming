@@ -18,6 +18,7 @@ int main(void)
 	for (car = 'r'; car <= 'z'; car++)
 		putchar(car); 
 	putchar('\n');
+	
+	return (0);
 
 }
-
