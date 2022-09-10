@@ -3,14 +3,17 @@
 /**
  * main - print letters a to z
  *
- * Programm return to 0
+ * Return : Always 0 (success)
  */
-int main(void) 
+
+int main(void)
 {
+
+
 	char l = 'a';
 
 	for (l = 'a'; l <= 'z'; l++)
-		printf(l);
+		putchar(l);
 	return (0);
 
 
