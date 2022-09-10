@@ -7,7 +7,7 @@
 int main(void) 
 {
 
-	char l;
+	char l = 'a';
 
 	for (l = 'a'; a <= 'z'; z++)
 		printf(l);
