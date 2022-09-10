@@ -11,7 +11,8 @@
 int main(void)
 {
 	char car = 'a';
-	if (car != 'e' || car != 'q'){
+	if (car != 'e' || car != 'q')
+	{
 		putchar(car);
 		car++;
 	}
@@ -19,5 +20,4 @@ int main(void)
 	putchar('\n');
 	
 	return (0);
-
 }
