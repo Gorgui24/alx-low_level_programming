@@ -15,5 +15,6 @@ int main(void)
 		car++;
 	}
 	putchar('\n');
+
 	return (0);
 }
