@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
+ * 
  * main - print letters a to z
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
