@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print letters a to z
+ * main - print z to a
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
