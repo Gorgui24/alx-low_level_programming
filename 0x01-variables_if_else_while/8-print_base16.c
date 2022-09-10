@@ -11,10 +11,13 @@ int main(void)
 {
 	char ch;
 	int num = 0;
-	char chn = num + '0';
 
-	for (num = 0; num < 10; ++num)
+	for (num = 0; num < 10; ++num) 
+	{
+		char chn = num + '0'
 		putchar(chn);
+	}
+
 	for (ch = 'a'; ch <= 'f'; ++ch)
 		putchar(ch);
 	putchar('\n');
