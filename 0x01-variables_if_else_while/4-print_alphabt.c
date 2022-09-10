@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	char car = 'a';
-
-	if (car != 'e' || car != 'q')
+	char ch;
+	for (ch = 'a'; a <= 'z'; a++)
 	{
-		putchar(car);
-		car++;
+		if (ch != 'e' || ch != 'q')
+			putchar(ch);
 	}
+
 	putchar('\n');
-	
 	return (0);
 }
