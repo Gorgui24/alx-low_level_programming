@@ -1,4 +1,4 @@
-#include <stdio.hi>
+#include <stdio.h>
 
 /**
  * main - print the alphabet in lowercase except q and e 
