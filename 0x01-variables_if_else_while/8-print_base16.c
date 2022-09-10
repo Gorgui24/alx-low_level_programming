@@ -5,7 +5,7 @@
  *
  * Description : using the main function
  * This programm print a to z
- * Return  : 0
+ * Return: 0
  */
 int main(void) 
 {
