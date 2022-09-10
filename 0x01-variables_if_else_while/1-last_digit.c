@@ -9,17 +9,16 @@
  */
 int main(void)
 {
-	int num, ld;
+	int n, l;
 
 	srand(time(0));
-	num = rand() - RAND_MAX / 2;
-	ld = num % 10;
-	if (ld > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", num, ld);
-	if (ld == 0)
-		printf("Last digit of %d is %d and is 0\n", num, ld);
-	if (ld < 6 && ld != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0", num, ld);
-	
+	n = rand() - RAND_MAX / 2;
+	l = n % 10;
+	if (l > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
+	if (l == 0)
+		printf("Last digit of %d is %d and is 0\n", n, l);
+	if (l < 6 && l != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0", n,l);
 	return (0);
 }
