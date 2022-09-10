@@ -30,13 +30,11 @@
 int main(void)  
 
 {
-	int n;                 
+	int n, last_Digit;                 
 
 	srand(time(0));   
 	n = rand() - RAND_MAX / 2;                                                                                        
-	/* your code goes there */                                                             
-
-	int last_Digit; 
+	/* your code goes there */                                            
 	last_Digit = n % 10;                                                                             
 
 	if (last_Digit > 5)
