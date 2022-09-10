@@ -9,7 +9,7 @@ int main(void)
 
 	char l;
 
-	for (i = 'a'; a <= 'z'; z++)
+	for (l = 'a'; a <= 'z'; z++)
 		printf(l);
 	return (0);
 
