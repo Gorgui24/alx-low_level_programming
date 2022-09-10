@@ -36,7 +36,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;                                                                                        
 	/* your code goes there */                                                             
 
-	int last_Digit = 
+	int last_Digit; 
 		last_Digit = n % 10;                                                                             
 
 	if (last_Digit > 5)
