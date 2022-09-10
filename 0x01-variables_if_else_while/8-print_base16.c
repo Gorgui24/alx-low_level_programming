@@ -8,9 +8,9 @@
  * Return: 0
  */
 int main(void) 
-	
+{	
 	char ch;
-	int num = 0;
+	int num;
 
 	for (num = 0; num < 10; ++num) {
 		char chn = num + '0';
