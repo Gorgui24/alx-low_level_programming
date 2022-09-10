@@ -7,8 +7,9 @@
  * This programm print a to z
  * Return: 0
  */
-int main(void) 
+int main(void)
 {
+
 	char ch;
 	int num = 0;
 
@@ -22,7 +23,6 @@ int main(void)
 	for (ch = 'a'; ch <= 'f'; ++ch)
 		putchar(ch);
 	putchar('\n');
-
 	return (0);
 }
 
