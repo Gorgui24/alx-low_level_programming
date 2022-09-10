@@ -3,10 +3,11 @@
 /**
  * main - print a to z in uppercase and lowercase
  *
+ * Description : using the main function
+ * This programm print a to z
  * Return  : 0
  */
 int main(void) 
-
 {
 	char l1, l2;
 	
