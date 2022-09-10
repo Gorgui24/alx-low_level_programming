@@ -3,7 +3,7 @@
 /**
  * main - print letters a to z
  *
- * Return: Always 0 (success)
+ * Return: 0 
  */
 
 int main(void)
@@ -13,7 +13,8 @@ int main(void)
 	char l;
 
 	for (l = 'a'; l <= 'z'; l++)
-		putchar("%c\n", l);
+		putchar(i);
+	putchar('\n');
 	return (0);
 
 
