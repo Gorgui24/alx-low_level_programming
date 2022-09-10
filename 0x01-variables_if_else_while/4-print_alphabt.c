@@ -16,8 +16,8 @@ int main(void)
 	for (car = 'f'; car < 'q'; car++)
 		putchar(car);
 	for (car = 'r'; car <= 'z'; car++)
-		putchar(car);
-	print('\n');
+		putchar(car); 
+	putchar('\n');
 
 }
 
