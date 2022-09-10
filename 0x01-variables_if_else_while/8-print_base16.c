@@ -8,7 +8,6 @@
  * Return: 0
  */
 int main(void) 
-{
 	
 	char ch;
 	int num = 0;
