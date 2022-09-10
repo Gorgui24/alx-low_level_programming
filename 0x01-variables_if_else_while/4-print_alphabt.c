@@ -5,10 +5,10 @@
  * 
  * Return: 0
  */
-
 int main(void)
 {
 	char car = 'a';
+
 	if (car != 'e' || car != 'q')
 	{
 		putchar(car);
@@ -16,6 +16,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	
 	return (0);
 }
