@@ -12,7 +12,7 @@ int main(void)
 
 	char l = 'a';
 
-	for (l = 'a'; l <= 'z'; l++)
+	for (l = 'a'; l < 'z'; l++)
 		putchar(l);
 	return (0);
 
