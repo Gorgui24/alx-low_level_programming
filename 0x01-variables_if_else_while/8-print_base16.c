@@ -9,12 +9,11 @@
  */
 int main(void) 
 {
-
 	char ch;
 	int num;
 
 	for (num = 0; num < 10; ++num)
-       	{
+	{
 		char chn = num + '0';
 
 		putchar(chn);
