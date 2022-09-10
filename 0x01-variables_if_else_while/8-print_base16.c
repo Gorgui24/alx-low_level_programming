@@ -7,7 +7,7 @@
  * This programm print a to z
  * Return: 0
  */
-int main(void) 
+int main(void)
 {
 	char ch;
 	int num;
