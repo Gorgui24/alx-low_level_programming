@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char car;
+	char car = 'a';
 	if (car != 'e' || car != 'q'){
 		putchar(car);
 		car++;
