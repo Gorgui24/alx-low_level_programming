@@ -2,6 +2,7 @@
 
 /**
  * main - print the alphabet in lowercase except q and e 
+ *
  * Return: 0
  */
 int main(void)
@@ -14,6 +15,5 @@ int main(void)
 		car++;
 	}
 	putchar('\n');
-
 	return (0);
 }
