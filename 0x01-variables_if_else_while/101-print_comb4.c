@@ -24,7 +24,7 @@ int main(void)
 						putchar(p + '0');
 						if (n != 7)
 						{
-							putchar(',');
+						i	putchar(',');
 							putchar(' ');
 						}
 					}
