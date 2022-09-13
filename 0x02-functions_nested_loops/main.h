@@ -1,11 +1,7 @@
 #ifndef main
 #include<stdio.h>
-void print_alphabet()
-{
-	int ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch + '0');
-}
+void print_alphabet(void);
+
 
 #define main
 #endif
