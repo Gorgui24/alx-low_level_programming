@@ -1,11 +1,12 @@
-#include<unistd.h>
+#include<stdio>
 /**
-* putchar: print c character to stdout
-*
-*
-*
-*/
-int _putchar(char c)
+ *
+ * putchar print
+ */
+
+char ch;
+void _putchar(ch)
 {
-	return (write(1, &c, 1));
+	putchar(ch);
+
 }

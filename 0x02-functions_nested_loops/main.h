@@ -1,7 +1,6 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTON_H_INCLUDED
+#ifndef MyHeaderFile
+#define MyHeaderFile
 
-void print_alphabet(void);
-
+_putchar(char);
 
 #endif
