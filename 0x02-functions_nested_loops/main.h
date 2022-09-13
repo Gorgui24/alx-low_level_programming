@@ -1,6 +1,6 @@
 #ifndef MyHeaderFile
 #define MyHeaderFile
 
-_putchar(char);
+void _putchar(char);
 
 #endif
