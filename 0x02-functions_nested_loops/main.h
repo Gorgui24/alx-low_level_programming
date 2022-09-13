@@ -1,3 +1,4 @@
+#ifndef main
 #include<stdio.h>
 void print_alphabet(void)
 {
@@ -5,3 +6,6 @@ void print_alphabet(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch + '0');
 }
+
+#define main
+#endif
