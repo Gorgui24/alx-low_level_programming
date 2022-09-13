@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+#include "main.h"
 /**
  * main - print _putchar
  *
@@ -10,14 +12,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 
-}
-
-void print_alphabet()
-{
-char ch;
-
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-       putchar(ch +'0');	
-}
 }
