@@ -35,7 +35,18 @@ int main(void)
 	r = print_sign(-1);
 	_putchar(',');
 	_putchar(' ');
-	_putchar(r + '0');							        _putchar('\n')
+	_putchar(r + '0');
+
+	r = _abs(-1);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n", r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-98);
+	printf("%d\n", r);
+
+	_putchar('\n')
 	return (0);
 
 }

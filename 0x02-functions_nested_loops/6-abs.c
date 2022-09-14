@@ -4,7 +4,7 @@
  * @j: convert number if ti's positive
  * Return: 0
  */
-int abs(int j)
+int _abs(int j)
 {
 	return (j);
 }
