@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - function to print x10 (a to z)
- *
+ * _islower - print 1 or 0 depending to letter
+ * c: value to return
+ * Return: 1 or 0
  */
 int _islower(int c)
 {
@@ -14,5 +15,4 @@ int _islower(int c)
 		return (1);
 	}
 	_putchar('\n');
-	
 }
