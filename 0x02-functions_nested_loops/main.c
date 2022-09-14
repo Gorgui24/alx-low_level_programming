@@ -10,7 +10,7 @@ int main(void)
 	print_alphabet();
 	print_alphabet_x10();
 	
-	int r;
+	int r, n;
 	
 	r = _islower('H');
 	_putchar(r + '0');
@@ -51,9 +51,12 @@ int main(void)
 	print_last_digit(0);
 	r = print_last_digit(-1024);
 	_putchar('0' + r);
+	n = add(89, 9);
+	printf("%d\n", n);
 
+
+	
 	_putchar('\n');
-
 	return (0);
 
 }
