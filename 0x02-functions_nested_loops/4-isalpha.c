@@ -6,9 +6,12 @@
  */
 int _isalpha(int c)
 {
+	int num = c;
 	if ((c <= 'a' && c >= 'z') || (c <= 'A' && c >= 'Z'))
-	return (1);
+		c = 1;
 	
 	else
-	return (0);
+		c = 0;
+
+	return (c);
 }
