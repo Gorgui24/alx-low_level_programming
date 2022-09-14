@@ -6,20 +6,16 @@
 void jack_bauer(void)
 {
 	int h, m;
-	for (h = 0; h <= 23; h++)
+	for (h = 0; h <= 2; h++)
 	{
-		for (m = 0; m <= 59; m++){
-			if (h <= 9)
+		for (hs = 0; hs <= 9; hs++){
+			if (h <= hs)
 			{
-				_putchar('0');
+				_putchar(h);
+				_putchar(hs);
 			}
-			_putchar('0' + h);
-			_putchar(':');
-			if (m <= 9)
-			{
-				_putchar('0');
-			}
-			_putchar(m + '0');
+		
+		
 			_putchar('\n');
 		}
 	}
