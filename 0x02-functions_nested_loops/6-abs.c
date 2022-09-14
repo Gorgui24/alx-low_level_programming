@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - print positive, negative signs or 0
+ * _abs - print positive, negative signs or 0
  * @j: convert number if ti's positive
  * Return: 0
  */

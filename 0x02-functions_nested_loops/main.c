@@ -46,7 +46,7 @@ int main(void)
 	r = _abs(-98);
 	printf("%d\n", r);
 
-	_putchar('\n')
+
 	return (0);
 
 }
