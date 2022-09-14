@@ -11,8 +11,11 @@ void jack_bauer(void)
 		for (hs = 0; hs <= 9; hs++){
 			if (h <= hs)
 			{
+				if (h <= 2 && hs <= 3)
+				{
 				_putchar(h + '0');
 				_putchar(hs + '0');
+				}
 			}
 		
 		
