@@ -60,9 +60,8 @@ int main(void)
 	_putchar('0' + r);
 	n = add(89, 9);
 	printf("%d\n", n);
-
-
 	
+	jack_bauer();	
 	_putchar('\n');
 	return (0);
 
