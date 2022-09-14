@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - print 1 or 0 depending to letter
- * c: value to return
- * Return: 1 or 0
+ * _sign - print positive, negative signs or 0
+ * n: value to return
+ * Return: 0
  */
 int print_sign(int n)
 {
@@ -15,8 +15,7 @@ int print_sign(int n)
 	{
 		_putchar('0');
 		return (0);
-	
-	} 
+	}
 	if (n < 0)
 	{
 		_putchar('-');
