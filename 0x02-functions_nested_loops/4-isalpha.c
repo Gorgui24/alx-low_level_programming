@@ -6,7 +6,9 @@
  */
 int _isalpha(int c)
 {
-	if ((c <= 'a' && c >= 'z') || (c <= 'A' && c >= 'Z'))
+	char al;
+
+	if ((al <= 'a' && al >= 'z') || (al <= 'A' && al >= 'Z'))
 	{
 		c = 1;
 	}	
