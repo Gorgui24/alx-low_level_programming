@@ -1,26 +1,22 @@
 #include "main.h"
 /**
- * _islower - print 1 or 0 depending to letter
- * c: value to return
+ * _isalpha - print 1 or 0 depending to letter
+ * @c: value to return
  * Return: 1 or 0
  */
-int print_sign(int n)
+int _isalpha(int c)
 {
-	if (n > 0)
+	if (c <= 'a' && c >= 'z')
 	{
 		return (1);
-		_putchar('+');
 	}
-	else if (n == 0)
+	else if (c <= 'A' && c >= 'Z')
 	{
-		_putchar('0');
+		return (1);
+	}
+	else
+	{
 		return (0);
-	
-	} 
-	else if (n < 0)
-	{
-		return (-1);
-		_putchar('-');
 	}
 	_putchar('\n');
 }
