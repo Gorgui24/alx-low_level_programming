@@ -4,7 +4,11 @@
  *
  * Return: 0
  */
-
+int main(void)
+{
+	print_alphabet();
+	_putchar('\n');
+}
 void print_alphabet(void)
 {
 	char ch;
