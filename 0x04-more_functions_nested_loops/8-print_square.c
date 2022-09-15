@@ -1,6 +1,6 @@
-#include "main.h"
+#include "main.h"i
 /**
- * print_square - print square #
+ * print_square - print square '#'
  * @size: parmater that define size square of '#' to print
  */
 void print_square(int size)
@@ -26,5 +26,4 @@ void print_square(int size)
 			_putchar('\n');
 		}
 	}
-
 }
