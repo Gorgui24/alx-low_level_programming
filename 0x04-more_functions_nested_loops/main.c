@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print a to z
+ * main - check the code.
  *
- * Retun: 0
+ * Retun: Alwa0
  */
 int main(void)
 {
