@@ -5,11 +5,11 @@
  */
 void print_diagonal(int n)
 {
-	int  count = 0, i;
+	int  count = 0;
 
 	while (n > count)
 	{
-		for (i = 0; i <= count; i++)
+		for (int i = 0; i < count; i++)
 		{
 			if (i > 0)
 				_putchar(' ');
