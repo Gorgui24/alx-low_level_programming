@@ -1,4 +1,4 @@
-#include "main.h"i
+#include "main.h"
 /**
  * print_square - print square '#'
  * @size: parmater that define size square of '#' to print
@@ -17,7 +17,7 @@ void print_square(int size)
 		{
 			int i = 1;
 
-			while (n >= i)
+			while (size >= i)
 			{
 				_putchar('#');
 				i++;
