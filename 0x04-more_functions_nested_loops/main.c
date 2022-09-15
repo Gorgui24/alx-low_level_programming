@@ -23,6 +23,6 @@ int main(void)
 	 printf("%d\n", mul(-402, 4096));
 	 print_numbers();
 	 print_most_numbers();
-	 _putchar('\n');
+	 more_numbers();
 	 return (0);
 }
