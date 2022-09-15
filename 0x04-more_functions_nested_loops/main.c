@@ -24,5 +24,6 @@ int main(void)
 	 print_numbers();
 	 print_most_numbers();
 	 more_numbers();
+	 _putchar('\n');
 	 return (0);
 }
