@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - print line like _
+ * @n: parmater that define number of '_' to print
  */
 void print_line(int n)
 {
