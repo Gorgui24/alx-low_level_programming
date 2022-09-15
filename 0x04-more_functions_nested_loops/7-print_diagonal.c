@@ -5,7 +5,7 @@
  */
 void print_diagonal(int n)
 {
-	int  count = 0, ii;
+	int  count = 0, i;
 
 	while (n > count)
 	{
