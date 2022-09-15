@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _isdigit - print 1 or 0 depending to letter
+ * _isdigit - print 1 or 0 depending to letter
  * @c: value to return
  * Return: 1 or 0
  */
