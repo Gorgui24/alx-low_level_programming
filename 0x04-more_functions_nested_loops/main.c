@@ -3,7 +3,7 @@
 /**
  * main - check the code.
  *
- * Retun: Alwa0
+ * Retun: Alwaays 0
  */
 int main(void)
 {
