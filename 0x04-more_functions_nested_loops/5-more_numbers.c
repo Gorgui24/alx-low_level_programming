@@ -4,12 +4,27 @@
  */
 void more_numbers(void)
 {
-	int n, ch;
+	int i, n, ch;
 
-	for (n = 0; n <= 10; n++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (ch = 0; ch <= 14; ch++)
-			_putchar(ch);
+		for (n = 0; n <= 9; n++)
+		{
+			_putchar(n + '0');
+		}
+		for (ch = 1; ch <= 4; ch++)
+		{
+			if (ch == 1)
+			{
+				_putchar(n + '0');
+				_putchar('0');
+			}
+			else
+			{
+				_putchar('1');
+				_putchar(n + '0');
+			}
+		}
 		_putchar('\n');
 	}
 }
