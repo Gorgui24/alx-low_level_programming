@@ -3,7 +3,7 @@
  * main- prints the largest prime factor
  * of a number
  *
- * Return: 0;
+ * Return: always 0
  *
  */
 int main(void)
@@ -28,6 +28,6 @@ int main(void)
 		}
 
 	}
-	printf("%d\n", number);
+	printf("%ld\n", number);
 	return (0);
 }
