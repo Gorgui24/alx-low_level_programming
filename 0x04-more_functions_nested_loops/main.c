@@ -23,6 +23,7 @@ int main(void)
 	 printf("%d\n", mul(-402, 4096));
 	 
 	 print_numbers();
+	 _putchar('\n');
 	 return (0);
 
 }
