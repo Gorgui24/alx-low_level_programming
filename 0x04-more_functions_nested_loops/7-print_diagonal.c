@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - print espace and \
- * @n: paraimeter that define number of espace whith '\' to print
+ * @n: parameter that define number of espace whith \ to print
  */
 void print_diagonal(int n)
 {
@@ -12,8 +12,8 @@ void print_diagonal(int n)
 		{
 			_putchar(' ');
 			count++;
+			_putchar('\\');
 		}
-	_putchar('\\');
 	}
 	_putchar('\n');
 }
