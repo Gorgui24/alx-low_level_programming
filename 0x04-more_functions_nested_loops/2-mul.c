@@ -8,6 +8,7 @@
 int mul(int a, int b)
 {
 	int multi = a * b;
-
+	
+	_putchar('\n');
 	return (multi);
 }
