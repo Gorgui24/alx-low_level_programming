@@ -10,13 +10,13 @@ void print_diagonal(int n)
 	while (n > count)
 	{
 		int i;
-		for (i = 0; i <= count; i++)
+		while(i < count)
 		{
-			if (i > 1)
-				_putchar(' ');
+			_putchar(' ');
+			i++;
 		}
 	_putchar('\\');
-	_putchar('\n');
 	count++;
+	_putchar('\n');
 	}
 }
