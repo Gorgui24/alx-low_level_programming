@@ -8,7 +8,7 @@
  *
  * @i: parameter that contains number to check
  */
-void positive_or_negative(int i);
+void positive_or_negative(int i)
 {
 	srand(time(0));
 	i = rand() - RAND_MAX / 2;
