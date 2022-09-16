@@ -2,18 +2,12 @@
 #include <stdlib.h>
 
 #include <time.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include "main.h"
 
 /**
- * positive_or_negative - print a number depending to if condition
+ * positive_or_negative - print nomber depending to sign
  *
- *
- *
- * Return: Always 0 (Success)
- *
+ * @i: parameter that contains number to check
  */
 void positive_or_negative(int i);
 {
