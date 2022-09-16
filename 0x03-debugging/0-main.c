@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 /**
  * main - check the code.
@@ -11,5 +10,6 @@ int main(void)
 
 	i = 98;
 	positive_or_negative(i);
+
 	return (0);
 }
