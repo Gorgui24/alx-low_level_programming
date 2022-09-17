@@ -17,12 +17,12 @@ void jack_bauer(void)
 				{
 					if (h < 2 || hs <= 3)
 					{
-						putchar(h + '0');
-						putchar(hs + '0');
-						putchar(':');
-						putchar(mn + '0');
-						putchar(mns + '0');
-						putchar('\n');
+						_putchar(h + '0');
+						_putchar(hs + '0');
+						_putchar(':');
+						_putchar(mn + '0');
+						_putchar(mns + '0');
+						_putchar('\n');
 					}
 				}
 			}
