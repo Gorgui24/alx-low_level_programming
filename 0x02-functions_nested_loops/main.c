@@ -61,7 +61,8 @@ int main(void)
 	n = add(89, 9);
 	printf("%d\n", n);
 	
-	jack_bauer();	
+	jack_bauer();
+	print_most_numbers();	
 	_putchar('\n');
 	return (0);
 
