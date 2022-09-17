@@ -13,7 +13,7 @@ void jack_bauer(void)
 		{
 			if (h <= hs)
 			{
-				if (hs <= 3 || hs <= 2)
+				if (hs <= 3 || h < 2)
 				{
 				_putchar(h + '0');
 				_putchar(hs + '0');
