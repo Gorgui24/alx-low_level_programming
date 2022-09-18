@@ -13,14 +13,17 @@ void print_times_table(int n)
 		{
 			mul = cl * li;
 			if (li > 0)
+			{
 				_putchar(' ');
+				_putchar(' ');
+			
+			}
 			if (mul < 10)
 			{
 				if (li != 0)
 				{
-					_putchar(' ');
-					_putchar(' ');
-				}
+					_putchar(' ')
+				}				}
 				_putchar(mul + '0');
 			}
 			if (mul >= 10)
