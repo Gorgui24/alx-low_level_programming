@@ -27,7 +27,7 @@ void print_times_table(int n)
 				_putchar(fd + '0');
 				_putchar(ld + '0');
 			}
-			if (li != 9)
+			if (li != n)
 				_putchar(',');
 		}
 		_putchar('\n');
