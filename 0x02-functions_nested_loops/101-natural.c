@@ -5,23 +5,15 @@
  */
 int main(void)
 {
-	int mul, muls, sumf = 0, sums = 0, sumt;
+	int mul, sumf = 0;
 
 	for (mul = 2; mul < 1024; ++mul)
 	{
-		if ((mul % 3) == 0)
+		if (((mul % 3) == 0) || ((mul % 5) == 0))
 		{
 			sumf += mul;
 		}
 	}
-	for (muls = 2; muls < 1024; ++muls)
-	{
-		if ((muls % 5) == 0)
-		{
-			sums += muls;
-		}
-	}
-	sumt = sumf + sums;
-	printf("%d\n", sumt);
+	printf("%d\n", sumf);
 	return (0);
 }
