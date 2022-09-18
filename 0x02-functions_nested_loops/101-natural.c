@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int mul, sumf = 0, sums = 0, sumt;
+	int mul, muls, sumf = 0, sums = 0, sumt;
 
 	for (mul = 2; mul < 1024; mul++)
 	{
@@ -13,9 +13,12 @@ int main(void)
 		{
 			sumf += mul;
 		}
-		if ((mul % 5) == 0)
+	}
+	for (muls = 2; muls < 1024; muls++)
+	{
+		if ((muls % 5) == 0)
 		{
-			sums += mul;
+			sums += muls;
 		}
 	}
 	sumt = sumf + sums;
