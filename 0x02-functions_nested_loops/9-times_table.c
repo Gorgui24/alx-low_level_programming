@@ -9,7 +9,7 @@ void times_table(void)
 
 	for (cl = 0; cl <= 9; cl++)
 	{
-		for (li = 0; cl <= 9; cl++)
+		for (li = 0; li <= 9; li++)
 		{
 			mul = cl * li;
 			if (li != 0)
