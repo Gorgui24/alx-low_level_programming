@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - print sum to multiple of 5 and 3 less t 1024
- * Retun: 0
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
