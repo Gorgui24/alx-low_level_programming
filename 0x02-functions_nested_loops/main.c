@@ -64,6 +64,7 @@ int main(void)
 	jack_bauer();
 	print_most_numbers();	
 	_putchar('\n');
+	times_table();
 	return (0);
 
 }
