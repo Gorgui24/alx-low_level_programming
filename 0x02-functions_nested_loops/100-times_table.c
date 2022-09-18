@@ -7,9 +7,9 @@ void print_times_table(int n)
 {
 	int cl, li, mul, fd, ld;
 
-	for (cl = 0; cl <= 9; cl++)
+	for (cl = 0; cl <= n; cl++)
 	{
-		for (li = 0; li <= 9; li++)
+		for (li = 0; li <= n; li++)
 		{
 			mul = cl * li;
 			if (li > 0)
