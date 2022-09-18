@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * times_table - function to print 0 to  81
- *
+ * print_times_table - function to print 0 to n
+ * @n: parameter to define number of print
  */
 void print_times_table(int n)
 {
@@ -16,14 +16,13 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 				_putchar(' ');
-			
 			}
 			if (mul < 10)
 			{
 				if (li != 0)
 				{
 					_putchar(' ');
-				}				}
+				}
 				_putchar(mul + '0');
 			}
 			if (mul >= 10)
