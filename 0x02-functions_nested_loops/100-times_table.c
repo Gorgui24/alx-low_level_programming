@@ -17,7 +17,10 @@ void print_times_table(int n)
 				_putchar(' ');
 			if (mul < 10)
 			{
+				if (n >= 10)
+				{
 				_putchar(' ');
+				}
 				_putchar(mul + '0');
 			}
 			if (mul >= 10)
