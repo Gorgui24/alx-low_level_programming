@@ -8,7 +8,7 @@
  */
 void print_array(int *a, int n)
 {
-	for (n = 0; n < strlen(a); n++)
+	for (n = 0; n < strlen(*a); n++)
 	{
 		printf(a[n]);
 		if (n != (strlen(a) - 1))
