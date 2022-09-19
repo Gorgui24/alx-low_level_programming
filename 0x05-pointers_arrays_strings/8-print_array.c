@@ -10,7 +10,7 @@ void print_array(int *a, int n)
 {
 	for (n = 0; n < strlen(a); n++)
 	{
-		printf(str[n]);
+		printf(a[n]);
 		if (n != (strlen(a) - 1))
 		{
 			_putchar(',');
