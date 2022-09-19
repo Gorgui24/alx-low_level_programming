@@ -8,10 +8,12 @@
  */
 void print_array(int *a, int n)
 {
-	for (n = 0; n < sizeof(a); n++)
+	int i = strlen(a);
+
+	for (n = 0; n < i; n++)
 	{
 		printf(a[n]);
-		if (n != (sizeof(a) - 1))
+		if (n != i - 1)
 		{
 			_putchar(',');
 			_putchar(' ');
