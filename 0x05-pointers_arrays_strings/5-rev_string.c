@@ -7,7 +7,7 @@
  * Return: int
  */
 void rev_string(char *s)
-{i
+{
 	int i, k = 0, j = strlen(s) - 1;
 
 
