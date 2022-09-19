@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  * print_rev - define size of string
  * @s: parameter to get size
@@ -7,9 +8,9 @@
  */
 void print_rev(char *s)
 {
-	char t[50];
+	char t[sizeof(s)];
 	int i;
 
-	for (i = (strlen(s) - 1); i <= 0; i--)
+	for (i = (sizeof(s) - 1); i <= 0; i--)
 		_putchar(t[i]);
 }
