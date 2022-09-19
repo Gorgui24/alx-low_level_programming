@@ -8,7 +8,7 @@
  */
 void print_array(int *a, int n)
 {
-	int i = strlen(a);
+	int i = sizeof(a);
 
 	for (n = 0; n < i; n++)
 	{
