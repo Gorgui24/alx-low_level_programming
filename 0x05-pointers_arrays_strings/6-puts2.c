@@ -7,9 +7,10 @@
  */
 void puts2(char *str)
 {
-	long n;
+	int n;
+	int j = strlen(str);
 
-	for (n = 0; n < sizeof(str); n += 2)
+	for (n = 0; n < j; n += 2)
 		_putchar(str[n]);
 	_putchar('\n');
 }
