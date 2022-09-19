@@ -8,9 +8,9 @@
  */
 void print_rev(char *s)
 {
-	char t[];
-	int i;
+	char t[1000];
+	int i, j = strlen(s);
 
-	for (i = (strlen(s) - 1); i >= 0; i--)
+	for (i = j; i >= 0; i--)
 		_putchar(t[i]);
 }
