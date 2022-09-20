@@ -14,5 +14,6 @@ int _atoi(char *s)
 	{
 		t[i] = (int)s[i];
 	}
-	return (t);
+	j = *t
+	return (j);
 }
