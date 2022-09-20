@@ -12,11 +12,11 @@ void rev_string(char *s)
 	
 	for (i = 0; i <= j; i++)
 	{
-		s[i];		
-	}
-	_putchar('\n');
-	for (k = j; k >= 0; k--)
-	{
-		s[k];
+		s[i] = s[i];
+		_putchar('\n');
+		for (k = j; k >= 0; k--)
+		{
+			s[i] = s[k];
+		}
 	}
 }
