@@ -12,7 +12,7 @@ int _atoi(char *s)
 
 	for (i = 0; i < j; i++)
 	{
-		t += int(s[i]);
+		t += s[i];
 	}
 	return (t);
 }
