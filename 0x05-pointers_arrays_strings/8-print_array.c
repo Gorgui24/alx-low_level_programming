@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 			printf("%d, ", a[i]);
 		}
 		else 
-			pritnf("%d", a[i];
+			pritnf("%d", a[i]);
 	}
 	_putchar('\n');
 }
