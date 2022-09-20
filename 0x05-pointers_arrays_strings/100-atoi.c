@@ -8,12 +8,11 @@
  */
 int _atoi(char *s)
 {
-	int i, j =  strlen(s);
-	int t[j];
+	int i, j = strlen(s), t;
 
 	for (i = 0; i < j; i++)
 	{
-		t[i] = int(s[i]);
+		t += int(s[i]);
 	}
 	return (t);
 }
