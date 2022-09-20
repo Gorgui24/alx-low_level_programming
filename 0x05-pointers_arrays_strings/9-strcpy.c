@@ -1,10 +1,11 @@
 #include "main.h"
-
 #include <stdio.h>
 #include <string.h>
 /**
- * puts_half - print string
- *@str: string to print
+ *_strcpy - copy string
+ *@dest: string to receive
+ *@src: string to send
+ *Return: pointer data
  */
 char *_strcpy(char *dest, char *src)
 {
