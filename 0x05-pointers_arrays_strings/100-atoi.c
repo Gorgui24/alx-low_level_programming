@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  *_atoi - convert char to int
  *@s: pointer string
