@@ -2,12 +2,14 @@
 #include <string.h>
 
 /**
- * _strcmp - copy string
- * @s1: parameter 1
- * @s2: parameter 2
+ * _strncpy - copy string
+ * @dest: parameter 1
+ * @src: parameter 2
+ * @n:parameter3
  * Return: pointer
  */
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-	return (strncmp(s1, s2));
+	strncopy(dest, src, n);
+	return (dest);
 }
