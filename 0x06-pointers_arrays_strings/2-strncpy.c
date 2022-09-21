@@ -10,6 +10,6 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	strncopy(dest, src, n);
+	strncpy(dest, src, n);
 	return (dest);
 }
