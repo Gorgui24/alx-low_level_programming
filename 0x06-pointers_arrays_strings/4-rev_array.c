@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-
+#include <stdio.h>
 /**
  * reverse_array - revers array
  * @a: parameter 1
@@ -8,16 +8,18 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i = 0;
+	int i;
 
+	i = 0;
 	while (n <= 0)
 	{
 		if (i != 0)
 		{
 			printf(", ");
 		}
-		 printf("%d", a[i]);
-		 n--;
-		 i++;
+		printf("%d", a[i]);
+		i++;
+		n--;
 	}
+	printf("\n");
 }
