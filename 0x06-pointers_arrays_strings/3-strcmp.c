@@ -9,5 +9,6 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	return (strncmp(s1, s2));
+	int str = strncmp(s1, s2);
+	return (str);
 }
