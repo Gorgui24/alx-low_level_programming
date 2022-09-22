@@ -2,14 +2,23 @@
 #include <string.h>
 
 /**
- * _strncpy - copy string
- * @dest: parameter 1
- * @src: parameter 2
- * @n:parameter3
- * Return: pointer
+ * reverse-array - reverse array int
+ * @a: parameter 1
+ * @n:parameter 2
  */
-char *_strncpy(char *dest, char *src, int n)
+void reverse_array(int *a, int n)
 {
-	strncpy(dest, src, n);
-	return (dest);
+	int i, j;
+
+	i = n - 1;
+	while (i >= 0)
+	{
+		if (j != i)
+			printf(", ");
+		printf("%d", s[i]);
+		i--;	
+	}
+	printf("\n");
+
+	
 }
