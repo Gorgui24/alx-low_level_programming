@@ -12,12 +12,12 @@ char *string_toupper(char *s)
 	int i = strlen(s);
 	char ch;
 
-	for (j = 0; j <= i; i++)
+	for (j = 0; j <= i; j++)
 	{
-		ch = s[i];
+		ch = s[j];
 		if (ch >= 'a' && ch <= 'z')
 		{
-			s[i] = s[i] - 32;
+			s[j] = s[j] - 32;
 		}
 	}
 	return (s);
