@@ -28,8 +28,8 @@ void reverse_array(int *a, int n)
 			int k = a[i] % 10;
 			int l = a[i] / 10;
 
-			_putchar(l +'0');
-			_putchar(k +'0');
+			_putchar(l + '0');
+			_putchar(k + '0');
 		}
 		else if (a[i] <= 999)
 		{
