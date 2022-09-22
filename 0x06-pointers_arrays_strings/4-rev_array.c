@@ -21,7 +21,7 @@ void reverse_array(int *a, int n)
 		}
 		if (a[i] <= 9)
 		{
-			_putchar(a[i] + 'i');
+			_putchar(a[i] + '0');
 		}
 		else if(a[i] <= 99)
 		{
