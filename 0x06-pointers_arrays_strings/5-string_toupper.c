@@ -3,21 +3,22 @@
 
 /**
  * string_toupper - lowercase to uppercase
- * @*: parameter
+ * @*s: parameter
  * Return: pointer
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int asc, j;
-	int i = strlen(*);
-	char ch, *s = *;
+	int j;
+	int i = strlen(s);
+	char ch;
 
-	for (j = 0, j <= i; i++)
+	for (j = 0; j <= i; i++)
 	{
+		ch = s[i];
 		if (ch >= 'a' && ch <= 'z')
 		{
-			*[i] = s[i] + 32;
+			s[i] = s[i] + 32;
 		}
 	}
-	return (*);
+	return (s);
 }
