@@ -10,10 +10,10 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		num = -num;
+		integ = -integ;
 	}
-	if ((num / 10) > 0)
-		print_number(num / 10);
-	_putchar((num % 10) + '0');
+	if ((integ / 10) > 0)
+		print_number(integ / 10);
+	_putchar((integ % 10) + '0');
 	_putchar('\n');
 }
