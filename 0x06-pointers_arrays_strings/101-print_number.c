@@ -15,5 +15,4 @@ void print_number(int n)
 	if ((integ / 10) > 0)
 		print_number(integ / 10);
 	_putchar((integ % 10) + '0');
-	_putchar('\n');
 }
