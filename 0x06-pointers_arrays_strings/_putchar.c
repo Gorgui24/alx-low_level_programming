@@ -1,11 +1,9 @@
-#include<stdio>
+#include<stdio.h>
 /**
  *
  * putchar print
  */
-
-char ch;
-void _putchar(ch)
+void _putchar(char ch)
 {
 	putchar(ch);
 
