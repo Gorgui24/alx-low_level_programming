@@ -5,39 +5,15 @@
  */
 void print_number(int n)
 {
-	if (n <= 9)
-	{
-		_putchar(n + '0');
-	}
-	else if (n <= 99)
-	{
-		int k = n % 10;
-		int l = n / 10;
+	unsigned int integ = n;
 
-		_putchar(l + '0');
-		_putchar(k + '0');
-	}
-	else if (n <= 999)
+	if (n < 0)
 	{
-		int k = n % 10;
-		int m = n % 100 / 10;
-		int l = n / 100;
-
-		_putchar('0' + l);
-		_putchar('0' + m);
-		_putchar('0' + k);
+		_putchar('-');
+		num = -num;
 	}
-	else if (n <= 9999)
-	{
-		int k = n % 10;
-		int m = n % 1000 / 100;
-		int o = n % 1000 % 100 / 10;
-		int l = n / 1000;
-
-		_putchar('0' + l);
-		_putchar('0' + o);
-		_putchar('0' + m);
-		_putchar('0' + k);
-	}
+	if ((num / 10) > 0)
+		print_number(num / 10);
+	_putchar((num % 10) + '0');
 	_putchar('\n');
 }
