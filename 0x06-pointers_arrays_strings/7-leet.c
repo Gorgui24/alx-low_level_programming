@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 /**
  * leet - replace chaar to int
@@ -8,7 +8,7 @@
  */
 char *leet(char *s)
 {
-	int i, j = strlen(s) - 1;
+	int i, j = sizeof(s) - 1;
 
 	for (i = 0; i <= j; i++)
 	{
