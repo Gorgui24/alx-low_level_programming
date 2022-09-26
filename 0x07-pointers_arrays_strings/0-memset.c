@@ -1,7 +1,7 @@
 #include "main.h"
 #include<string.h>
 /**
- * _memset - show table 
+ * _memset - show table
  * @s: pointer parameter
  * @b: char parameter
  * @n: parameter int
