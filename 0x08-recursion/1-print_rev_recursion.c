@@ -8,11 +8,11 @@ void _print_rev_recursion(char *s)
 {
 	int  j = strlen(s) - 1;
 
-	if (j < 0)
+	while (j >= 0)
 	{
-		_putchar('\n');
-		return;
-	}
 	_putchar(s[j]);
-	_print_rev_recursion(s - 1);
+	i--;
+	}
+	_putchar('\n');
+
 }
