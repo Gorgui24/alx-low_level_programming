@@ -1,7 +1,7 @@
 #include "main.h"
 #include<string.h>
 /**
- * _factorial - number factorila
+ * factorial - number factorial
  * @n: integer parameter
  * Return: int
  */
