@@ -13,11 +13,6 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	else if (j > 7)
-	{
-		if ((s[j] == s[0] && s[k] == s[1] && s[l] == s[2]) || s == '\0')
-			return (1);
-	}
 	else
 		return (0);
 }
