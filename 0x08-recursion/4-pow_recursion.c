@@ -16,5 +16,6 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-sh: 1: q: not found
+	return (x * x + _pow_recursion(x, y - 1));
+
 }
