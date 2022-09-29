@@ -9,7 +9,7 @@ int is_palindrome(char *s)
 {
 	int j = strlen(s) - 1, k = strlen(s) - 2, l = strlen(s) - 3;
 
-	if ((s[j] == s[0] && s[k] == s[1] && s[l] != s[2]) || *s == '\0')
+	if ((s[j] == s[0] && s[k] == s[1]) || *s == '\0')
 	{
 		return (1);
 	}
