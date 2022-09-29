@@ -9,15 +9,17 @@ int factorial(int n)
 {
 	if (n < 0)
 	{
-		return (-1);
+		n = - 1;
 	}
 	if (n == 0)
 	{
-		return (1);
+		n = 1;
 	}
 	if (n > 0)
 	{
-		n = n * return (factorial(n - 1));
-		return (n);
+		int i = factorial(n - 1);
+		
+		n = n * i;
 	}
+	return (n);
 }
