@@ -7,14 +7,12 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 0)
-	{
-		int i, j = strlen(argv[0]);
-		char *s = argv[0];
-		
-		for (i = 0; i < j; i++)
-			_putchar(s[i]);
-		_putchar('\n');
-	}
-		return (0);
+	int i, j = strlen(argv[0]);
+	char *s = argv[0];
+	
+	for (i = 0; i < j; i++)
+		_putchar(s[i]);
+	_putchar('\n');
+	argc = 0;
+	return (argc);
 }
