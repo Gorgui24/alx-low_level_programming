@@ -7,9 +7,10 @@
  * @argc: number of line
  * Return: always 0
  */
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int argc, char *argv[])
 {
-	_putchar(argc);
+	(void) argv;
+	_putchar(argc + '0');
 	_putchar('\n');
 	return (0);
 }
