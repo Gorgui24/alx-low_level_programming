@@ -6,9 +6,7 @@
  * @ch: char parameter
  * Return : 1
  */
-
-char ch;
-int _putchar(ch)
+int _putchar(char ch)
 {
 	return (write(1, &ch, 1));
 }
