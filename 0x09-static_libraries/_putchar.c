@@ -1,12 +1,14 @@
-#include<stdio>
+#include<stdio.h>
+#include<unistd.h>
 /**
  *
  * putchar print
+ * @ch: char parameter
+ * Return : 1
  */
 
 char ch;
-void _putchar(ch)
+int _putchar(ch)
 {
-	putchar(ch);
-
+	return (write(1, &ch, 1));
 }
