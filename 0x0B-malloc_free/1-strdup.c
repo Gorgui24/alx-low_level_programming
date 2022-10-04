@@ -8,9 +8,10 @@
  */
 char *_strdup(char *str)
 {
+	int j = strlen(str);
 	if (str == NULL)
 		return (NULL);
 	else
-		str = malloc(sizeof(*str) * 1024);
+		str = malloc(sizeof(*str) * j);
 	return (str);
 }
