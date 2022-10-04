@@ -1,5 +1,5 @@
 #include "main.h"
-#include<string.h>
+#include<stdlib.h>
 /**
  * _strdup - print by recursion
  * @str: pointer parameter
