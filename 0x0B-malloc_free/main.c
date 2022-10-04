@@ -7,10 +7,14 @@
  */
 int main(void)
 {
-	char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
+char *s;
 
-	char *p;
-	p = leet(s);
-	printf("%s", p);
+s = _strdup(NULL);
+if (s == NULL)
+{
+	printf("failed to allocate memory\n");
+	return (1);
+}
+free(s);
 return (0);
 }
