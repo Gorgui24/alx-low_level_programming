@@ -20,8 +20,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		ch[i] = s1[i];
 	}
-	ch[i] = " ";
-	for (j = 0; j < i; i++)
+	ch[i] = ' ';
+	for (j = 0; j < k; i++)
 		ch[j + i + 1] = s2[j];
 	return (ch);
 }
