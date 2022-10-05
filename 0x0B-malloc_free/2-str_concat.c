@@ -22,9 +22,9 @@ char *str_concat(char *s1, char *s2)
 	ch = malloc(sizeof(char) * (i + k));
 	if (s1 != NULL || i > 0)
 	{
+		i = i + 1;
 		for (j = 0; j <= i; j++)
 			ch[j] = s1[j];
-		ch[i + 1] = ' ';
 	}
 	if (s2 != NULL || k > 0)
 	{
