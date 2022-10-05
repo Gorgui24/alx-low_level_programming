@@ -1,6 +1,6 @@
 #include "main.h"
 #include<string.h>
-#include<stdlib>
+#include<stdlib.h>
 /**
  * create_array - print pointer
  * @size: int parameter
