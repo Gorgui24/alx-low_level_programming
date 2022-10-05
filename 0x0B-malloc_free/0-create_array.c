@@ -1,18 +1,26 @@
 #include "main.h"
 #include<string.h>
+#include<stdlib>
 /**
- * _puts_recursion - print by recursion
- * @s: pointer parameter
+ * create_array - print pointer
+ * @size: int parameter
+ * @c: char parameter
+ * Return: pointer
  */
 char *create_array(unsigned int size, char c)
 {
-	int  i = 0, j = strlen(s) - 1;
+	unsigned int i;
+	char *ch;
 
-	if (i > j)
+	if (size == NULL)
+		return (NULL);
+	ch = malloc(sizeof(char) * size);
+	if (i == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
 	{
-		_putchar('\n');
-		return;
+		ch[i] = c;
 	}
-	_putchar(s[i]);
-	_puts_recursion(s + 1);
+	return (ch);
+
 }
