@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	if (s1 != NULL || i > 0)
 	{
 		for (j = 0; j <= i; j++)
-			ch[j] = s1[i];
+			ch[j] = s1[j];
 	}
 	if (s2 != NULL || k > 0)
 	{
