@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		if (s1 != NULL || i > 0)
 		{
-			ch[i + 1] = s1 [i + 1];
+			ch[i + 1] = ' ';
 			i = i + 2;
 			for (j = 0; j <= k; j++)
 			{
