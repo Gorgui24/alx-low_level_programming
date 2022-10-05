@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		ch[j] = s1[j];
 	}
-	if (s2 != NULL || s2 != "")
+	if (s2 != NULL || s2 != '\0')
 	{
 		ch[i] = ' ';
 		for (j = 0; j < k; j++)
