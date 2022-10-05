@@ -22,8 +22,9 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s2 != NULL)
 	{
+		ch[i] = ' ';
 		for (j = 0; j < k; j++)
-			ch[j + i + 1] = s2[j];
+			ch[j + i] = s2[j];
 	}
 	return (ch);
 }
