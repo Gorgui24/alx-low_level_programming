@@ -7,7 +7,7 @@
  * @size: int parameter
  * Return: pointer address
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ch;
 
