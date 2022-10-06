@@ -2,25 +2,14 @@
 #include<string.h>
 #include<stdlib.h>
 /**
- * create_array - print pointer
- * @size: int parameter
- * @c: char parameter
- * Return: pointer
+ * malloc_checked - return adress
+ * @b: int parameter
  */
-char *create_array(unsigned int size, char c)
+void *malloc_checked(unsigned int b)
 {
-	unsigned int i;
 	char *ch;
 
-	if (size == 0)
+	if (b == 0)
 		return (NULL);
-	ch = malloc(sizeof(char) * size);
-	if (ch == NULL)
-		return (NULL);
-	for (i = 0; i < size; i++)
-	{
-		ch[i] = c;
-	}
-	return (ch);
-
+	ch = &b;
 }
