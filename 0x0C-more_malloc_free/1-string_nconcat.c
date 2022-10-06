@@ -26,11 +26,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	k = strlen(s1);
 	m = strlen(s2);
-	for (i = 0; i <= k; i++)
+	for (i = 0; i < k; i++)
 		ch[i] = s1[i];
 	if (m > n)
 		m = n;
-	for (j = 0; j <= m; j++)
-		ch[k + j + 1] = s2[j];
+	for (j = 0; j < m; j++)
+		ch[k + j] = s2[j];
+
 	return (ch);
 }
