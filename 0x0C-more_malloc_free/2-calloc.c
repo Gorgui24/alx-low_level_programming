@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 /**
- * calloc - return adress
+ * _calloc - return adress
  * @nmemb: int parameter
  * @size: int parameter
  * Return: pointer address
