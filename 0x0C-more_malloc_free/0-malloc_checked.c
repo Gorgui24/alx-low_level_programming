@@ -7,9 +7,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	char *ch;
+	void *ch;
+
+	ch = malloc(b);
 
 	if (b == 0)
-		return (NULL);
-	ch = &b;
+		exit (98);
+	return (ch);
 }
