@@ -29,7 +29,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		for (i = 0; i < new_size; i++)
 			ch[i] = *((char *)ptr + 1);
-		free (ptr);
+		free(ptr);
 	}
 	return (ch);
 
