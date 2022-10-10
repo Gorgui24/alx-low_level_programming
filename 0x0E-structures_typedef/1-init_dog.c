@@ -1,4 +1,5 @@
 #include "dog.h"
+#include<stdlib.h>
 /**
  * malloc_checked - return adress
  * @d: struct parameter
