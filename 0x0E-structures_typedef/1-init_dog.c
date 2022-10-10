@@ -1,7 +1,7 @@
 #include "dog.h"
 #include<stdlib.h>
 /**
- * malloc_checked - return adress
+ * init_dog - struct
  * @d: struct parameter
  * @name: char parameter
  * @age: float parameter
