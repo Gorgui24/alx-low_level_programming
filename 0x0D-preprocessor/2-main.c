@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print a to z
+ * main - print file name
  *
- * Retun: 0
+ * Return: 0
  */
 int main(void)
 {
