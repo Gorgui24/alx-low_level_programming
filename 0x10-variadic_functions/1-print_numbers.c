@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdio.h> 
+#include <stdio.h>
 /**
  * print_numbers - return adress
  * @n: char parameter
@@ -16,7 +16,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		num = va_arg(ap, int);
-		
 		printf("%d", num);
 		if (i < n - 1)
 		{
