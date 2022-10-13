@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h> 
 /**
- * print_strings - return adress
+ * print_stringis - return adress
  * @n: char parameter
  * @separator: pointer parameter
  */
