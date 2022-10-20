@@ -1,5 +1,7 @@
 #ifndef MyHeaderFile
-#define MyHeaderFile
+#define MyHeaderFilie
+
+#include <stdlib.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -15,7 +17,6 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 void _putchar(char ch);
-size_t print_list(const list_t *h;
 size_t print_list(const list_t *h);
 #endif
 
