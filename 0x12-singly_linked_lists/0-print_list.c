@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_list - print 
+ * print_list - print
  * @h: pointer parameter
  * Return: node
  */
