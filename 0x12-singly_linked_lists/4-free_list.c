@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * free_list - print
  * @head: pointer parameter
