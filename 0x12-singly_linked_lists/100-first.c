@@ -1,10 +1,9 @@
-#include "lists.h"
 #include <stdio.h>
 /**
  * main - print before main
- * printBeforeMain - print before main
  * Return: 0
  */
+void printBeforeMain(void) __attribute__ ((constructor));
 void printBeforeMain(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
