@@ -21,8 +21,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		dern = *head;
 		while (dern->next != NULL)
-		       dern = dern->next;
-	dern->next = ajout;
-	}	
+			dern = dern->next;
+		dern->next = ajout;
+	}
 	return (ajout);
 }
