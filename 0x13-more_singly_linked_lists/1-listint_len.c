@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * listint_int - print
+ * listint_len - print
  * @h: pointer parameter
  * Return: node
  */
