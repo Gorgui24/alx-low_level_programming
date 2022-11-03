@@ -8,8 +8,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int o, r, len;
-	char *flux;
+	int o, w, len;
 
 	if (filename == NULL)
 		return (-1);
