@@ -3,7 +3,7 @@
  * hash_table_create - create a hash table
  * @size: size of tables
  * Return: new hashor NULL if erro
- * */
+ */
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
