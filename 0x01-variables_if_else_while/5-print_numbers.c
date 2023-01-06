@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print numeric
+ * main - print 0 to 9 and a to f
  *
  * Return: 0
  */
