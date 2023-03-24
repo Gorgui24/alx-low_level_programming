@@ -1,21 +1,36 @@
-#include "variadic_functions.h"
-#include <stdarg.h>
-/**
- * sum_them_all - return adress
- * @n: char parameter
- * Return: retunr 1
- */
-int sum_them_all(const unsigned int n, ...)
-{
-	va_list ap;
-	unsigned int i;
-	int sum = 0;
+#include <main.h>
+#include "holberton.h"
 
-	if (n == 0)
-		return (sum);
-	va_start(ap, n);
-	for (i = 0; i < n; i++)
-		sum += va_arg(ap, int);
-	va_end(ap);
-	return (sum);
+/**
+ * binary_to_uint - Converts binary to unsigned int
+ *
+ * @b: Pointer to string of chars
+ *
+ * Return: Converted number
+ */
+
+unsigned int binary_to_uint(const char *b)
+{
+	signed int index = 0, num = 0;
+
+
+	if (!b)
+		return (0);
+
+	while (b[index] != '\0')
+	{
+		if (b[index] != '0' && b[index] != '1')
+		{
+			return (0);
+		}
+
+		num <<= 1;
+
+		if (b[index] & 1)
+		{
+			num += 1;
+		}
+		index += 1;
+	}
+	return (num);
 }
